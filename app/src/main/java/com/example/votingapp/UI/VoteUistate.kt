@@ -1,4 +1,5 @@
-package com.example.votingapp.ui.theme
+package com.example.votingapp.UI
+
 
 sealed class VoteUiState {
     data object MetamaskConnect : VoteUiState()
